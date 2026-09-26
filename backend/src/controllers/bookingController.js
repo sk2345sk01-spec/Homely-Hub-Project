@@ -1,5 +1,5 @@
-import {Property} from "../models/propertyModel.js"
-import {Booking} from "../models/bookingModel.js"
+import {Property} from "../Models/propertyModel.js"
+import {Booking} from "../Models/bookingModel.js"
 
 //book any property
 const createOrder = async(req,res)=>{
