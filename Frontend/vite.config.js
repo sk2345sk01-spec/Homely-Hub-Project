@@ -8,7 +8,7 @@ export default defineConfig({
     proxy:{
       '/api':{
         // target: 'http://localhost:8080',
-        target: 'https://homely-hub-project-srk.onrender.com/',
+        target: 'https://sk-homely-hub-project.onrender.com/',
         changeOrigin: true,
         secure: false,
       }
