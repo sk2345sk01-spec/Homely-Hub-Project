@@ -22,7 +22,12 @@ app.use(cookieParser());
 
 // CORS configuration
 app.use(cors({
-  origin:process.env.ORIGIN_ACCESS_URL,
+  origin: [
+    'https://shariqhomebookingplatform.netlify.app',
+    'http://localhost:5173', // Keep your local dev URL if needed
+    'http://localhost:3000',
+    process.env.ORIGIN_ACCESS_URL
+  ],
   credentials: true
 }));
 
